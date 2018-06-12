@@ -5,9 +5,9 @@ class RPSGame
       @paper = paper
       @scissors = scissors
     end
-    
+
     def
-      if gets.strip != @rock, @paper, @scissors
+      if gets.strip != @rock @paper @scissors
         raise PlayTypeError
       end
     end
