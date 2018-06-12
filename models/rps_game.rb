@@ -1,7 +1,6 @@
 class RPSGame
 
-    def initialize
-raise PlayTypeError
+    def initialize raise PlayTypeError
     end
 
   class PlayTypeError < StandardError
