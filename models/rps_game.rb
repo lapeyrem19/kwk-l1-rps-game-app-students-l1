@@ -1,7 +1,8 @@
 class RPSGame
 
-    def initialize rock
+    def initialize (rock,paper,scissors)
       @rock = rock
+      if
     end
 
   class PlayTypeError < StandardError
