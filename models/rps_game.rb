@@ -7,7 +7,7 @@ class RPSGame
     end
 
     def
-      if gets.strip != @rock 
+      if gets.strip != @rock
         raise PlayTypeError
       end
     end
