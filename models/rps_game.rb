@@ -1,11 +1,12 @@
 class RPSGame
 
-    def initialize (rock,paper,scissors)
+    def initialize (rock,paper,scissors) 
       @rock = rock
       @paper = paper
       @scissors = scissors
       if gets.strip != rock, paper, scissors
         puts "invalid"
+        raise PlayTypeError
     end
 
   class PlayTypeError < StandardError
