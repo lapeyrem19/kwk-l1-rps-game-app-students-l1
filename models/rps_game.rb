@@ -4,9 +4,9 @@ class RPSGame
       @rock = rock
       @paper = paper
       @scissors = scissors
-      if gets.strip != rock, paper, scissors
+      if gets.strip != @rock, @paper, @scissors
         raise PlayTypeError
-      end 
+      end
     end
 
   class PlayTypeError < StandardError
