@@ -1,13 +1,16 @@
 class RPSGame
 
+ moves = [:rock, :paper, :scissors]
     def initialize (rock,paper,scissors)
       @rock = rock
       @paper = paper
       @scissors = scissors
     end
 
+
+
     def
-      if gets.strip != @rock
+      if gets.strip != moves
         raise PlayTypeError
       end
     end
