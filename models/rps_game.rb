@@ -1,6 +1,6 @@
 class RPSGame
 
-    def initialize 
+    def initialize
 raise PlayTypeError
     end
 
