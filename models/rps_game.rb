@@ -1,6 +1,6 @@
 class RPSGame
 
-    def initialize (rock,paper,scissors) 
+    def initialize (rock,paper,scissors)
       @rock = rock
       @paper = paper
       @scissors = scissors
