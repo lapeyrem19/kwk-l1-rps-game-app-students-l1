@@ -1,7 +1,7 @@
 class RPSGame
 
-    def initialize moves
-      raise PlayTypeError
+    def initialize rock
+      @rock = rock
     end
 
   class PlayTypeError < StandardError
