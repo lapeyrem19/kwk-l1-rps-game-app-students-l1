@@ -7,8 +7,6 @@ class RPSGame
       @scissors = scissors
     end
 
-
-
     def
       if gets.strip != moves
         raise PlayTypeError
