@@ -5,8 +5,8 @@ class RPSGame
       @paper = paper
       @scissors = scissors
       if gets.strip != rock, paper, scissors
-        puts "invalid"
         raise PlayTypeError
+      end 
     end
 
   class PlayTypeError < StandardError
